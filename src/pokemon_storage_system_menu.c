@@ -34,13 +34,15 @@ static const u8 sChooseBoxMenuCorners_Gfx[];
 struct {
     const u8 *text;
     const u8 *desc;
-} static const sMainMenuTexts[OPTIONS_COUNT] = {
-    [OPTION_WITHDRAW]   = {gText_WithdrawPokemon, gText_WithdrawMonDescription},
-    [OPTION_DEPOSIT]    = {gText_DepositPokemon,  gText_DepositMonDescription},
-    [OPTION_MOVE_MONS]  = {gText_MovePokemon,     gText_MoveMonDescription},
-    [OPTION_MOVE_ITEMS] = {gText_MoveItems,       gText_MoveItemsDescription},
-    [OPTION_EXIT]       = {gText_SeeYa,           gText_SeeYaDescription}
+} static const sVisibleMainMenuTexts[] = {
+    {gText_DepositPokemon, gText_DepositMonDescription}, // posição 0 na lista
+    {gText_SeeYa,          gText_SeeYaDescription},      // posição 1 na lista
 };
+
+// sVisibleMenuOptions[posição do cursor] = opção real (do enum original)
+static const u8 sVisibleMenuOptions[] = {OPTION_DEPOSIT, OPTION_EXIT};
+
+#define VISIBLE_OPTIONS_COUNT ARRAY_COUNT(sVisibleMenuOptions)
 
 void DrawTextWindowAndBufferTiles(const u8 *string, void *dst, u8 zero1, u8 zero2, u8 *unused, s32 bytesToBuffer)
 {
@@ -250,7 +252,7 @@ static void Task_PCMainMenu(u8 taskId)
         LoadStdWindowFrameGfx();
         DrawDialogueFrame(0, FALSE);
         FillWindowPixelBuffer(0, PIXEL_FILL(1));
-        AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, TEXT_SKIP_DRAW, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+        AddTextPrinterParameterized2(0, FONT_NORMAL, sVisibleMainMenuTexts[task->tSelectedOption].desc, TEXT_SKIP_DRAW, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
         CopyWindowToVram(0, COPYWIN_FULL);
         CopyWindowToVram(task->tWindowId, COPYWIN_FULL);
         task->tState++;
@@ -262,20 +264,28 @@ static void Task_PCMainMenu(u8 taskId)
         break;
     case STATE_HANDLE_INPUT:
         task->tInput = Menu_ProcessInput();
+
+        // Traduz "posição do cursor" (0, 1...) pra "opção real" do enum
+        // original, ANTES de entrar no switch. Só não traduz os valores
+        // especiais MENU_NOTHING_CHOSEN / MENU_B_PRESSED, que não são
+        // posições de cursor.
+        if (task->tInput != MENU_NOTHING_CHOSEN && task->tInput != MENU_B_PRESSED)
+            task->tInput = sVisibleMenuOptions[task->tInput];
+
         switch(task->tInput)
         {
         case MENU_NOTHING_CHOSEN:
             task->tNextOption = task->tSelectedOption;
             if (JOY_NEW(DPAD_UP) && --task->tNextOption < 0)
-                task->tNextOption = OPTIONS_COUNT - 1;
-            if (JOY_NEW(DPAD_DOWN) && ++task->tNextOption > OPTIONS_COUNT - 1)
+                task->tNextOption = VISIBLE_OPTIONS_COUNT - 1;
+            if (JOY_NEW(DPAD_DOWN) && ++task->tNextOption > VISIBLE_OPTIONS_COUNT - 1)
                 task->tNextOption = 0;
 
             if (task->tSelectedOption != task->tNextOption)
             {
                 task->tSelectedOption = task->tNextOption;
                 FillWindowPixelBuffer(0, PIXEL_FILL(1));
-                AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+                AddTextPrinterParameterized2(0, FONT_NORMAL, sVisibleMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             }
             break;
         case MENU_B_PRESSED:
@@ -287,14 +297,9 @@ static void Task_PCMainMenu(u8 taskId)
             DestroyTask(taskId);
             break;
         default:
-            if (task->tInput == OPTION_WITHDRAW && CountPartyMons() == PARTY_SIZE)
-            {
-                // Can't withdraw
-                FillWindowPixelBuffer(0, PIXEL_FILL(1));
-                AddTextPrinterParameterized2(0, FONT_NORMAL, gText_PartyFull, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
-                task->tState = STATE_ERROR_MSG;
-            }
-            else if (task->tInput == OPTION_DEPOSIT && CountPartyMons() == 1)
+            // OPTION_WITHDRAW nunca chega aqui, pois nem está em
+            // sVisibleMenuOptions. Só sobrou a checagem do Deposit.
+            if (task->tInput == OPTION_DEPOSIT && CountPartyMons() == 1)
             {
                 // Can't deposit
                 FillWindowPixelBuffer(0, PIXEL_FILL(1));
@@ -316,27 +321,27 @@ static void Task_PCMainMenu(u8 taskId)
         if (JOY_NEW(A_BUTTON | B_BUTTON))
         {
             FillWindowPixelBuffer(0, PIXEL_FILL(1));
-            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            AddTextPrinterParameterized2(0, FONT_NORMAL, sVisibleMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
         else if (JOY_NEW(DPAD_UP))
         {
             if (--task->tSelectedOption < 0)
-                task->tSelectedOption = 4;
+                task->tSelectedOption = VISIBLE_OPTIONS_COUNT - 1;
             Menu_MoveCursor(-1);
             task->tSelectedOption = Menu_GetCursorPos();
             FillWindowPixelBuffer(0, PIXEL_FILL(1));
-            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            AddTextPrinterParameterized2(0, FONT_NORMAL, sVisibleMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
         else if (JOY_NEW(DPAD_DOWN))
         {
-            if (++task->tSelectedOption > 3)
+            if (++task->tSelectedOption > VISIBLE_OPTIONS_COUNT - 1)
                 task->tSelectedOption = 0;
             Menu_MoveCursor(1);
             task->tSelectedOption = Menu_GetCursorPos();
             FillWindowPixelBuffer(0, PIXEL_FILL(1));
-            AddTextPrinterParameterized2(0, FONT_NORMAL, sMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
+            AddTextPrinterParameterized2(0, FONT_NORMAL, sVisibleMainMenuTexts[task->tSelectedOption].desc, 0, NULL, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_WHITE, TEXT_COLOR_LIGHT_GRAY);
             task->tState = STATE_HANDLE_INPUT;
         }
         break;
@@ -359,6 +364,19 @@ void ShowPokemonStorageSystemPC(void)
     LockPlayerFieldControls();
 }
 
+// sPreviousBoxOption guarda a OPÇÃO REAL (ex.: OPTION_DEPOSIT = 1), não a
+// posição na lista visível.
+static u8 BoxOptionToVisibleMenuPos(u8 boxOption)
+{
+    u8 i;
+    for (i = 0; i < VISIBLE_OPTIONS_COUNT; i++)
+    {
+        if (sVisibleMenuOptions[i] == boxOption)
+            return i;
+    }
+    return 0; // fallback de segurança: primeira opção (Depositar)
+}
+
 static void FieldTask_ReturnToPcMenu(void)
 {
     u8 taskId;
@@ -367,7 +385,7 @@ static void FieldTask_ReturnToPcMenu(void)
     SetVBlankCallback(NULL);
     taskId = CreateTask(Task_PCMainMenu, 80);
     gTasks[taskId].tState = STATE_LOAD;
-    gTasks[taskId].tSelectedOption = sPreviousBoxOption;
+    gTasks[taskId].tSelectedOption = BoxOptionToVisibleMenuPos(sPreviousBoxOption);
     Task_PCMainMenu(taskId);
     SetVBlankCallback(vblankCb);
     FadeInFromBlack();
@@ -378,7 +396,7 @@ static const struct WindowTemplate sWindowTemplate_MainMenu = {
     .tilemapLeft = 1,
     .tilemapTop = 1,
     .width = 17,
-    .height = 10,
+    .height = 4, // original era 10 (pra 5 opções); ajuste ao gosto/teste in-game
     .paletteNum = 15,
     .baseBlock = 0x001
 };
@@ -388,8 +406,8 @@ static void CreatePCMainMenu(u8 whichMenu, s16 *windowIdPtr)
     s16 windowId = AddWindow(&sWindowTemplate_MainMenu);
 
     DrawStdWindowFrame(windowId, FALSE);
-    PrintTextArray(windowId, FONT_NORMAL, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), 2, 16, ARRAY_COUNT(sMainMenuTexts), (void *)sMainMenuTexts);
-    Menu_InitCursor(windowId, FONT_NORMAL, 0, 2, 16, ARRAY_COUNT(sMainMenuTexts), whichMenu);
+    PrintTextArray(windowId, FONT_NORMAL, GetMenuCursorDimensionByFont(FONT_NORMAL, 0), 2, 16, VISIBLE_OPTIONS_COUNT, (void *)sVisibleMainMenuTexts);
+    Menu_InitCursor(windowId, FONT_NORMAL, 0, 2, 16, VISIBLE_OPTIONS_COUNT, whichMenu);
     *windowIdPtr = windowId;
 }
 
