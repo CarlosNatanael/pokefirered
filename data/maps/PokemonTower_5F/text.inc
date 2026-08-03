@@ -1,7 +1,10 @@
 PokemonTower_5F_Text_RestHereInPurifiedSpace::
-    .string "Come, child!\n"
-    .string "I have purified this space.\l"
-    .string "You can rest here.$"
+    .string "Come, child...\n"
+    .string "I have purified this space.\p"
+    .string "But the spirits whisper that you\n"
+    .string "have forbidden yourself from resting.\p"
+    .string "May your POKéMON survive the dark\n"
+    .string "trials ahead!$"
 
 PokemonTower_5F_Text_TammyIntro::
     .string "Give…me…\n"
@@ -46,6 +49,6 @@ PokemonTower_5F_Text_JanaePostBattle::
 PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed::
     .string "Entered the purified and protected\n"
     .string "zone.\p"
-    .string "{PLAYER}'s POKéMON were fully\n"
-    .string "healed.$"
+    .string "However, no healing is allowed in\n"
+    .string "this challenge!$"
 

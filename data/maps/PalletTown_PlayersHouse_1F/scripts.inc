@@ -23,10 +23,7 @@ PalletTown_PlayersHouse_1F_EventScript_MomOakLookingForYouFemale::
 	return
 
 PalletTown_PlayersHouse_1F_EventScript_MomHeal::
-	msgbox PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest
-	closemessage
-	call EventScript_OutOfCenterPartyHeal
-	msgbox PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare
+	msgbox PalletTown_PlayersHouse_1F_Text_CrazyChallenge
 	release
 	end
 

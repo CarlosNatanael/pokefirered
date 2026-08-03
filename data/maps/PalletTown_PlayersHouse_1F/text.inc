@@ -12,14 +12,13 @@ PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
     .string "Oh, yes. PROF. OAK, next door, was\n"
     .string "looking for you.$"
 
-PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
+PalletTown_PlayersHouse_1F_Text_CrazyChallenge::
     .string "MOM: {PLAYER}!\n"
-    .string "You should take a quick rest.$"
-
-PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
-    .string "MOM: Oh, good! You and your\n"
-    .string "POKéMON are looking great.\l"
-    .string "Take care now!$"
+    .string "You look tired…\p"
+    .string "But I heard you are doing that\n"
+    .string "crazy No Center Challenge!\p"
+    .string "No free beds in this house!\n"
+    .string "Keep going, I believe in you!$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
     .string "There's a movie on TV.\n"
