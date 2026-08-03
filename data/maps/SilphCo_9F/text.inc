@@ -1,6 +1,8 @@
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-    .string "You look tired.\n"
-    .string "You should take a quick nap.$"
+    .string "You look tired.\p"
+    .string "But taking a nap in the middle of a\n"
+    .string "No Center Challenge? No way!\p"
+    .string "Don't give up!$"
 
 SilphCo_9F_Text_DontGiveUp::
     .string "Don't give up!$"
