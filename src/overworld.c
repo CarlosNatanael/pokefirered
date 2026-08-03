@@ -247,16 +247,6 @@ static const u16 sWhiteOutMoneyLossBadgeFlagIDs[] = {
     FLAG_BADGE08_GET
 };
 
-static void DoWhiteOut(void)
-{
-    RunScriptImmediately(EventScript_ResetEliteFourEnd);
-    RemoveMoney(&gSaveBlock1Ptr->money, ComputeWhiteOutMoneyLoss());
-    HealPlayerParty();
-    Overworld_ResetStateAfterWhitingOut();
-    Overworld_SetWhiteoutRespawnPoint();
-    WarpIntoMap();
-}
-
 u32 ComputeWhiteOutMoneyLoss(void)
 {
     u8 nbadges = CountBadgesForOverworldWhiteOutLossCalculation();
@@ -1544,24 +1534,11 @@ void CB2_NewGame(void)
 
 void CB2_WhiteOut(void)
 {
-    u8 val;
-
     if (++gMain.state >= 120)
     {
         FieldClearVBlankHBlankCallbacks();
         StopMapMusic();
-        ResetSafariZoneFlag_();
-        DoWhiteOut();
-        SetInitialPlayerAvatarStateWithDirection(DIR_NORTH);
-        ScriptContext_Init();
-        UnlockPlayerFieldControls();
-        gFieldCallback = FieldCB_RushInjuredPokemonToCenter;
-        val = 0;
-        DoMapLoadLoop(&val);
-        QuestLog_CutRecording();
-        SetFieldVBlankCallback();
-        SetMainCallback1(CB1_Overworld);
-        SetMainCallback2(CB2_Overworld);
+        DoSoftReset();
     }
 }
 
