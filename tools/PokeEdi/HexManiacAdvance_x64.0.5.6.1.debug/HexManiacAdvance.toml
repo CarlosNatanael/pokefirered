@@ -1,0 +1,30 @@
+[GeneralSettings]
+LogAppStartupProgress = False
+UseTableEntryHeaders = True
+AllowSingleTableMode = True
+InsertAutoActive = True
+ShowMatrixGrid = True
+FocusOnGotoShortcuts = False
+ZoomLevel = 16
+MaximumDiffSegments = 1000
+MaximumSearchResults = 1000
+CopyLimit = 40000
+AnimateScroll = True
+AutoAdjustDataWidth = True
+StretchData = True
+AllowMultipleElementsPerLine = False
+IsNewVersionAvailable = True
+LastUpdateCheck = 02/08/2026 05:13:30
+AcknowledgeTutorials = True
+Base10Length = False
+SpartanMode = False
+MapTutorials = '''011111101111111111101111000101110101'''
+RecentFiles = ["C:\Games\ROMS\GBA\No Center Challenge\teste-pokeNoCenter.gba"]
+
+[Theme]
+PrimaryColor = "#dddddd"
+BackgroundColor = "#222222"
+HueOffset= 0,1
+AccentSaturation = 0,7
+AccentValue = 0,7
+HighlightBrightness = 0,6
