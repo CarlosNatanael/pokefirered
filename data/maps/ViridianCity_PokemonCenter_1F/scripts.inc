@@ -25,3 +25,25 @@ ViridianCity_PokemonCenter_1F_EventScript_Gentleman::
 ViridianCity_PokemonCenter_1F_EventScript_Youngster::
 	msgbox ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons, MSGBOX_NPC
 	end
+
+EventScript_CentroFail::
+    lockall
+    playse SE_PIN
+    applymovement OBJ_EVENT_ID_PLAYER, Movement_Susto
+    waitmovement 0
+    delay 30
+    msgbox Text_CentroFail_Aviso
+    closemessage
+    applymovement OBJ_EVENT_ID_PLAYER, Movement_ForcarSaida
+    waitmovement 0
+    releaseall
+    end
+
+Movement_Susto:
+    emote_exclamation_mark
+    step_end
+
+Movement_ForcarSaida:
+    walk_down
+    step_end
+

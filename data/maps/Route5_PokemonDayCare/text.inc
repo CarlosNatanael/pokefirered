@@ -66,3 +66,11 @@ Route5_PokemonDayCare_Text_WantMeToTakeALookAtYours::
 Route5_PokemonDayCare_Text_CantAcceptMonWithHM::
     .string "わるいけど　ひでんのわざを　もった\n"
     .string "ポケモンは　あずかれないなぁ$"
+
+Text_DayCareFechado_Aviso::
+    .string "I'm sorry, but due to the POKéMON\n"
+    .string "CENTER lockdown, we suspended\l"
+    .string "all our services.\p"
+    .string "We can't take care of any\n"
+    .string "POKéMON right now!$"
+

@@ -16,3 +16,11 @@ ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
     .string "They make all POKéMON completely\n"
     .string "healthy.$"
 
+Text_CentroFail_Aviso::
+    .string "NURSE JOY: Stop right there!\n"
+    .string "You entered a POKéMON CENTER!\p"
+    .string "By stepping inside, you broke the\n"
+    .string "rules of the Challenge.\p"
+    .string "Your run is officially OVER!\n"
+    .string "Please step outside.$"
+

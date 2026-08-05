@@ -15,3 +15,4 @@ SSAnne_1F_Room6_EventScript_DeclineHealMale::
 	msgbox SSAnne_1F_Room6_Text_SorryYouLookLikeMyBrother
 	release
 	end
+

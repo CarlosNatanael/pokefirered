@@ -13,3 +13,4 @@ SSAnne_1F_Room6_Text_SorryYouLookLikeMySister::
     .string "Oh, I'm sorry for fussing over you.\n"
     .string "You just look like my little sister…\l"
     .string "Good luck out there!$"
+
