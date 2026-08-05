@@ -204,8 +204,13 @@ gOakSpeech_Text_IsInhabitedFarAndWide::
 gOakSpeech_Text_IStudyPokemon::
     .string "For some people, POKéMON are pets.\n"
     .string "Others use them for battling.\p"
-    .string "As for myself…\p"
-    .string "I study POKéMON as a profession.\p$"
+    .string "But Kanto is facing a severe crisis.\n"
+    .string "All POKéMON CENTERS are locked down!\p"
+    .string "Beds are empty, PCs are restricted to\n"
+    .string "deposits only, and no one can heal you.\p"
+    .string "If all your POKéMON faint...\n"
+    .string "You will be sent to the title screen!\p"
+    .string "Save often, and proceed with caution.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
     .string "But first, tell me a little about\n"
@@ -237,7 +242,7 @@ gOakSpeech_Text_RememberRivalsName::
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "Your very own POKéMON legend is\n"
-    .string "about to unfold!\p"
-    .string "A world of dreams and adventures\n"
-    .string "with POKéMON awaits! Let's go!$"
+    .string "This won't be an easy journey.\n"
+    .string "You must survive with what you find.\p"
+    .string "The NO CENTER CHALLENGE awaits!\n"
+    .string "Try not to black out... Let's go!$"
