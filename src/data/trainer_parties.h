@@ -10860,3 +10860,80 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CueBallPaxton[] = {
         .species = SPECIES_MUK,
     },
 };
+
+static const struct TrainerMonNoItemDefaultMoves sParty_RATorchicZK[] = {
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_BLAZIKEN,
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_GARDEVOIR,
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_LUDICOLO,
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_GENGAR,
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_PIDGEOT,
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_CROBAT,
+    },
+};
+static const struct TrainerMonItemCustomMoves sParty_RAChaotic[] = {
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_VAPOREON,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_TOXIC},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_ALAKAZAM,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_PSYCHIC, MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_MACHAMP,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_ROCK_SLIDE, MOVE_BODY_SLAM},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_ELECTABUZZ,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_RHYDON,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_IRON_TAIL},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_ABSOL,
+        .heldItem = ITEM_SCOPE_LENS,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_BITE, MOVE_CALM_MIND},
+    }
+};

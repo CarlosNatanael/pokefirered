@@ -264,3 +264,30 @@ VermilionCity_EventScript_GymSign::
 VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
 	end
+
+EventScript_RAChaotic::
+    lock
+    faceplayer
+    goto_if_defeated TRAINER_RA_CHAOTIC, EventScript_RAChaotic_JaVenceu
+    msgbox Text_RAChaotic_Aviso, MSGBOX_YESNO
+    compare VAR_RESULT, YES
+    goto_if_eq EventScript_RAChaotic_Batalha
+    msgbox Text_RAChaotic_Recusa
+    release
+    end
+
+EventScript_RAChaotic_Batalha::
+    trainerbattle_single TRAINER_RA_CHAOTIC, Text_RAChaotic_Vitoria, Text_RAChaotic_Derrota, EventScript_RAChaotic_Premio
+    end
+
+EventScript_RAChaotic_Premio::
+    msgbox Text_RAChaotic_PosBatalha
+    giveitem ITEM_LEFTOVERS
+    release
+    end
+
+EventScript_RAChaotic_JaVenceu::
+    msgbox Text_RAChaotic_Fim
+    release
+    end
+

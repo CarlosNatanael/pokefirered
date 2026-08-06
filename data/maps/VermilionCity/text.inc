@@ -129,3 +129,28 @@ VermilionCity_Text_Route2AideHasPackageForYou::
     .string "If you're in the ROUTE 2 area,\n"
     .string "please look for him.$"
 
+Text_RAChaotic_Aviso::
+    .string "Oh, hi. I'm Chaotic.\p"
+    .string "Do you want to have\n"
+    .string "an extra battle with me?$"
+
+Text_RAChaotic_Recusa::
+    .string "That's okay.\n"
+    .string "Come back if you want to try!$"
+
+Text_RAChaotic_Vitoria::
+    .string "You got me!\n"
+    .string "Thanks for the good time.$"
+
+Text_RAChaotic_Derrota::
+    .string "Huh. Seems like you\n"
+    .string "need to improve...$"
+
+Text_RAChaotic_PosBatalha::
+    .string "I had fun!\n"
+    .string "Hopefully you did too.$"
+
+Text_RAChaotic_Fim::
+    .string "Keep going.\n"
+    .string "Good luck!$"
+
