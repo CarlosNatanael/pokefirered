@@ -35,7 +35,7 @@ EventScript_RATorchicZK_Batalha::
 
 EventScript_RATorchicZK_Premio::
     msgbox Text_RATorchicZK_PosBatalha
-    giveitem ITEM_LEFTOVERS
+    giveitem ITEM_TM19
     release
     end
 

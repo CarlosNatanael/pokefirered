@@ -119,3 +119,32 @@ PowerPlant_EventScript_FoughtElectrode2::
 	setflag FLAG_FOUGHT_POWER_PLANT_ELECTRODE_2
 	goto EventScript_RemoveStaticMon
 	end
+
+EventScript_RAMalevolent::
+    lock
+    faceplayer
+    goto_if_defeated TRAINER_RA_MALEVOLENT, EventScript_RAMalevolent_JaVenceu
+    msgbox Text_RAMalevolent_Aviso, MSGBOX_YESNO
+    compare VAR_RESULT, YES
+    goto_if_eq EventScript_RAMalevolent_Batalha
+    msgbox Text_RAMalevolent_Recusa
+    release
+    end
+
+EventScript_RAMalevolent_Batalha::
+    trainerbattle_single TRAINER_RA_MALEVOLENT, Text_RAMalevolent_Vitoria, Text_RAMalevolent_Derrota, EventScript_RAMalevolent_Premio
+    end
+
+EventScript_RAMalevolent_Premio::
+    msgbox Text_RAMalevolent_PosBatalha
+    giveitem ITEM_MAX_ELIXIR
+    release
+    end
+
+EventScript_RAMalevolent_JaVenceu::
+    msgbox Text_RAMalevolent_Fim
+    release
+    end
+
+.include "data/maps/PowerPlant/text.inc"
+

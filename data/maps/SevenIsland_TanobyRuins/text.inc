@@ -50,3 +50,25 @@ SevenIsland_TanobyRuins_Text_CliffordPostBattle::
     .string "on your own…\p"
     .string "Yes, you certainly are quite the\n"
     .string "extraordinary person, indeed.$"
+
+Text_RAS4nsan_Aviso::
+    .string "Ready to play among the stars?$"
+
+Text_RAS4nsan_Recusa::
+    .string "You're ten thousand light-years\n"
+    .string "from facing me anyway.$"
+
+Text_RAS4nsan_Vitoria::
+    .string "There was an attempt.$"
+
+Text_RAS4nsan_Derrota::
+    .string "The only hope I have left is\n"
+    .string "the sweet release of death!$"
+
+Text_RAS4nsan_PosBatalha::
+    .string "I orbit greatness,\n"
+    .string "it's a lifestyle.$"
+
+Text_RAS4nsan_Fim::
+    .string "Keep looking at the stars.$"
+
