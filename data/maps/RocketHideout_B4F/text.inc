@@ -1,25 +1,25 @@
 RocketHideout_B4F_Text_GiovanniIntro::
     .string "So! I must say, I am impressed you\n"
-    .string "got here.\p"
-    .string "TEAM ROCKET captures POKéMON from\n"
-    .string "around the world.\p"
-    .string "They're important tools for keeping\n"
-    .string "our criminal enterprise going.\p"
-    .string "I am the leader, GIOVANNI!\p"
-    .string "For your insolence, you will feel a\n"
-    .string "world of pain!$"
+    .string "survived long enough to reach me.\p"
+    .string "TEAM ROCKET now works for me,\n"
+    .string "confiscating medicine and items.\p"
+    .string "They are vital to enforcing\n"
+    .string "my new health policies.\p"
+    .string "I am the HEAD NURSE, JOY!\p"
+    .string "For your insolence, you will be\n"
+    .string "discharged... permanently!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
     .string "WHAT!\n"
-    .string "This can't be!$"
+    .string "My medical precision... failed?$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "I see that you raise POKéMON with\n"
-    .string "utmost care.\p"
-    .string "A child like you would never\n"
-    .string "understand what I hope to achieve.\p"
+    .string "I see that your POKéMON have\n"
+    .string "a strong immune system.\p"
+    .string "A child like you could never\n"
+    .string "understand my clinical trials.\p"
     .string "I shall step aside this time!\p"
-    .string "I hope we meet again…$"
+    .string "But the pain has just begun...$"
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "I know you!\n"

@@ -43,23 +43,25 @@ SilphCo_11F_Text_ThanksForRescuingUs::
 
 SilphCo_11F_Text_GiovanniIntro::
     .string "Ah, {PLAYER}!\n"
-    .string "So we meet again!\p"
+    .string "Your survival rate annoys me.\p"
     .string "The PRESIDENT and I are discussing\n"
-    .string "a vital business proposition.\p"
-    .string "Keep your nose out of grown-up\n"
-    .string "matters…\p"
-    .string "Or, experience a world of pain!$"
+    .string "the confiscation of all medicine.\p"
+    .string "Keep your nose out of clinical\n"
+    .string "matters...\p"
+    .string "Or I will prescribe you a\n"
+    .string "world of pain!$"
 
 SilphCo_11F_Text_GiovanniDefeat::
-    .string "Arrgh!!\n"
-    .string "I lost again!?$"
+    .string "Urgh!!\n"
+    .string "My diagnosis was wrong again!?$"
 
 SilphCo_11F_Text_GiovanniPostBattle::
     .string "Blast it all!\n"
-    .string "You ruined our plans for SILPH!\p"
-    .string "But, TEAM ROCKET will never fall!\p"
+    .string "You ruined my plans for SILPH!\p"
+    .string "But my healthcare monopoly\n"
+    .string "will never fall!\p"
     .string "{PLAYER}! Never forget that all\n"
-    .string "POKéMON exist for TEAM ROCKET!\p"
+    .string "POKéMON exist for my research!\p"
     .string "I must go, but I shall return!$"
 
 SilphCo_11F_Text_Grunt2Intro::
