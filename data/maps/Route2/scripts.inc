@@ -30,7 +30,7 @@ EventScript_RACnat_Batalha::
 
 EventScript_RACnat_Premio::
     msgbox Text_RACnat_PosBatalha
-    giveitem ITEM_MAX_ELIXIR
+    giveitem ITEM_MAX_REVIVE
     release
     end
 
