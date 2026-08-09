@@ -194,3 +194,30 @@ SeafoamIslands_B4F_EventScript_BoulderHintSign::
 SeafoamIslands_B4F_EventScript_FastCurrentSign::
 	msgbox SeafoamIslands_B4F_Text_DangerFastCurrent, MSGBOX_SIGN
 	end
+
+EventScript_RAGreninjaMan::
+    lock
+    faceplayer
+    goto_if_defeated TRAINER_RA_GRENINJAMAN, EventScript_RAGreninjaMan_JaVenceu
+    msgbox Text_RAGreninjaMan_Aviso, MSGBOX_YESNO
+    compare VAR_RESULT, YES
+    goto_if_eq EventScript_RAGreninjaMan_Batalha
+    msgbox Text_RAGreninjaMan_Recusa
+    release
+    end
+
+EventScript_RAGreninjaMan_Batalha::
+    trainerbattle_single TRAINER_RA_GRENINJAMAN, Text_RAGreninjaMan_Vitoria, Text_RAGreninjaMan_Derrota, EventScript_RAGreninjaMan_Premio
+    end
+
+EventScript_RAGreninjaMan_Premio::
+    msgbox Text_RAGreninjaMan_PosBatalha
+    giveitem ITEM_SHELL_BELL
+    release
+    end
+
+EventScript_RAGreninjaMan_JaVenceu::
+    msgbox Text_RAGreninjaMan_Fim
+    release
+    end
+

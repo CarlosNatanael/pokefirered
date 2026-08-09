@@ -11046,6 +11046,51 @@ static const struct TrainerMonItemCustomMoves sParty_RAMalevolent[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_RAGreninjaMan[] = {
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_POLITOED,
+        .heldItem = ITEM_QUICK_CLAW,
+        .moves = {MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_EARTHQUAKE, MOVE_SURF},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_METAGROSS,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_EXPLOSION},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_VENUSAUR,
+        .heldItem = ITEM_MYSTIC_WATER,
+        .moves = {MOVE_PROTECT, MOVE_HIDDEN_POWER, MOVE_RAZOR_LEAF, MOVE_SLUDGE_BOMB},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_NIDOKING,
+        .heldItem = ITEM_FOCUS_BAND,
+        .moves = {MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_CROBAT,
+        .heldItem = ITEM_BRIGHT_POWDER,
+        .moves = {MOVE_CONFUSE_RAY, MOVE_SLUDGE_BOMB, MOVE_AERIAL_ACE, MOVE_STEEL_WING},
+    },
+    {
+        .iv = 250,
+        .lvl = 80,
+        .species = SPECIES_ELECTABUZZ,
+        .heldItem = ITEM_NEVER_MELT_ICE,
+        .moves = {MOVE_THUNDERBOLT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_QUICK_ATTACK},
+    }
+};
+
 static const struct TrainerMonItemCustomMoves sParty_RACnat[] = {
     {
         .iv = 250,

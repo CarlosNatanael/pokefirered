@@ -7484,4 +7484,16 @@ const struct Trainer gTrainers[] = {
         .partySize = ARRAY_COUNT(sParty_RACnat),
         .party = {.ItemCustomMoves = sParty_RACnat},
     },
+    [TRAINER_RA_GRENINJAMAN] = {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM,
+        .trainerClass = TRAINER_CLASS_COOLTRAINER, 
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        .trainerName = _("GRENINJAMAN"),
+        .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_MAX_REVIVE, ITEM_FULL_RESTORE},
+        .doubleBattle = FALSE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
+        .partySize = ARRAY_COUNT(sParty_RAGreninjaMan),
+        .party = {.ItemCustomMoves = sParty_RAGreninjaMan},
+    },
 };

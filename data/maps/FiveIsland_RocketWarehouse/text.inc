@@ -1,126 +1,126 @@
 FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen::
     .string "There are many POKéMON locked\n"
-    .string "away in the pen…$"
+    .string "away in the pen as test subjects...$"
 
 FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled::
     .string "The pen door is unlocked.\n"
-    .string "The POKéMON appear to have fled.$"
+    .string "The test subjects have fled.$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2Intro::
     .string "Did you come here knowing it's\n"
-    .string "TEAM ROCKET's WAREHOUSE?$"
+    .string "NURSE JOY's MEDICAL WAREHOUSE?$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2Defeat::
-    .string "What do you think you're doing?!$"
+    .string "What kind of malpractice is this?!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt2PostBattle::
-    .string "TEAM ROCKET broke up?\n"
+    .string "Our medical monopoly broke up?\n"
     .string "What planet are you from?$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Intro::
-    .string "Oh, now your POKéMON look strong.\n"
-    .string "You're willing to sell them?\p"
+    .string "Oh, your POKéMON look very healthy.\n"
+    .string "You're willing to donate them?\p"
     .string "Oh?\n"
     .string "You wanted to battle?$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1Defeat::
-    .string "Oh, but…\n"
-    .string "Too much!$"
+    .string "Oh, but...\n"
+    .string "The side effects!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt1PostBattle::
-    .string "We can give you a great price.\n"
-    .string "Sell us your POKéMON!$"
+    .string "We can give you a great diagnosis.\n"
+    .string "Leave your POKéMON with us!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3Intro::
     .string "I got word about you from the\n"
-    .string "others.\p"
+    .string "other doctors.\p"
     .string "But there's no way a kid like you'd\n"
-    .string "know our BOSS GIOVANNI!$"
+    .string "know HEAD NURSE JOY!$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3Defeat::
-    .string "Don't…you…dare…laugh…$"
+    .string "Code... blue...$"
 
 FiveIsland_RocketWarehouse_Text_Grunt3PostBattle::
-    .string "Don't mess in the doings of adults,\n"
-    .string "you jumped-up pip-squeak!$"
+    .string "Don't mess in the doings of science,\n"
+    .string "you statistical anomaly!$"
 
 FiveIsland_RocketWarehouse_Text_Admin1Intro::
     .string "I don't know or care if what I'm\n"
-    .string "doing is right or wrong…\p"
-    .string "I just put my faith in GIOVANNI\n"
-    .string "and do as I am told.$"
+    .string "doing is right or wrong...\p"
+    .string "I just put my faith in NURSE JOY\n"
+    .string "and administer the doses I'm told.$"
 
 FiveIsland_RocketWarehouse_Text_Admin1Defeat::
-    .string "I…\n"
-    .string "I'm shattered…$"
+    .string "I...\n"
+    .string "I'm flatlining...$"
 
 FiveIsland_RocketWarehouse_Text_Admin1PostBattle::
-    .string "You're doing things according to\n"
-    .string "your beliefs and morals.\p"
-    .string "I understand now…$"
+    .string "You're surviving purely on your\n"
+    .string "own immune system.\p"
+    .string "I understand now...$"
 
 FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough::
     .string "I've made it so you can come back\n"
     .string "in through there.\p"
-    .string "Why don't you go get rested and\n"
-    .string "refreshed for what lies ahead?\p"
-    .string "The ADMIN after me outranks me\n"
-    .string "thoroughly as a TRAINER.\p"
+    .string "Why don't you go heal at a CENTER...\n"
+    .string "Oh wait, you can't! Hahaha!\p"
+    .string "The HEAD DOCTOR after me outranks\n"
+    .string "me thoroughly as a TRAINER.\p"
     .string "You'd better steel yourself for one\n"
-    .string "harsh challenge.$"
+    .string "harsh clinical trial.$"
 
 FiveIsland_RocketWarehouse_Text_Admin2Intro::
     .string "That's quite enough of you \n"
     .string "playing the hero, kid.\p"
-    .string "Spreading lies about how TEAM\n"
-    .string "ROCKET has disbanded…\p"
+    .string "Spreading lies about how our\n"
+    .string "medical monopoly has disbanded...\p"
     .string "It's such an obvious attempt to\n"
-    .string "cause confusion in our ranks.\p"
+    .string "cause confusion in our clinic.\p"
     .string "Fortunately, we're not so ignorant\n"
-    .string "to fall for the lies of a child!\p"
+    .string "to fall for the lies of a patient!\p"
     .string "And now, I'll show you how scary\n"
-    .string "an angry adult can be!$"
+    .string "a revoked license can be!$"
 
 FiveIsland_RocketWarehouse_Text_Admin2Defeat::
-    .string "Urgh…\n"
-    .string "You were too strong…\p"
-    .string "…\n"
-    .string "Th-that's GIOVANNI's BADGE!\p"
+    .string "Urgh...\n"
+    .string "Your immunity was too strong...\p"
+    .string "...\n"
+    .string "Th-that's the HEALTHBADGE!\p"
     .string "So it's true?\n"
-    .string "TEAM ROCKET really has disbanded?$"
+    .string "NURSE JOY really was defeated?$"
 
 FiveIsland_RocketWarehouse_Text_Admin2PostBattle::
-    .string "We will abandon this WAREHOUSE…\p"
+    .string "We will abandon this clinic...\p"
     .string "But don't think this is over.\n"
     .string "I won't let this be the end.\p"
-    .string "I will find GIOVANNI.\n"
-    .string "And I will resurrect TEAM ROCKET!\l"
-    .string "I will…\p"
+    .string "I will find NURSE JOY.\n"
+    .string "And I will resurrect her monopoly!\l"
+    .string "I will...\p"
     .string "Until then, farewell!$"
 
 FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText::
-    .string "A report with graphs and text is on\n"
+    .string "A report with clinical charts is on\n"
     .string "the PC monitor.\p"
-    .string "“The Influence of Magnetic Waves\n"
-    .string "on POKéMON Evolution”…\p"
-    .string "… … … … … …\p"
-    .string "It's too difficult to understand…$"
+    .string "“The Effects of Severe HP Deprivation\n"
+    .string "on POKéMON Resilience”...\p"
+    .string "... ... ... ... ... ...\p"
+    .string "It's too gruesome to read...$"
 
 FiveIsland_RocketWarehouse_Text_GideonIntro::
     .string "I almost managed to sell the\n"
-    .string "SAPPHIRE for huge money…\p"
+    .string "SAPPHIRE for huge medical funding...\p"
     .string "Then, you just had to come along\n"
     .string "and blow the whole deal apart!\p"
-    .string "Fufu… Fufufufu…\n"
-    .string "There's no forgiveness for you!$"
+    .string "Fufu... Fufufufu...\n"
+    .string "There's no cure for my rage!$"
 
 FiveIsland_RocketWarehouse_Text_GideonDefeat::
     .string "Gah! Darn!\n"
     .string "Darn! Darn!$"
 
 FiveIsland_RocketWarehouse_Text_GideonPostBattle::
-    .string "If I can't sell it, it's worthless!\n"
-    .string "Go ahead, take it!$"
+    .string "If I can't fund my research, it's\n"
+    .string "worthless! Go ahead, take it!$"
 
 FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe::
     .string "What do you want now?\n"
@@ -128,10 +128,10 @@ FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe::
 
 FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair::
     .string "What, you again?\p"
-    .string "You… You're not GIOVANNI's kid,\n"
-    .string "are you?\p"
+    .string "You... You're not related to\n"
+    .string "NURSE JOY, are you?\p"
     .string "No, that can't be right!\n"
-    .string "GIOVANNI's kid has red hair.\p"
+    .string "All of her sisters look identical.\p"
     .string "You don't have any reasons for\n"
     .string "bugging me. Leave me alone!$"
 
