@@ -1,6 +1,6 @@
 PokemonTower_7F_Text_Grunt1Intro::
     .string "What do you want?\n"
-    .string "Why are you here?$"
+    .string "Why are you in this morgue?$"
 
 PokemonTower_7F_Text_Grunt1Defeat::
     .string "I give up!$"
@@ -10,26 +10,26 @@ PokemonTower_7F_Text_Grunt1PostBattle::
 
 PokemonTower_7F_Text_Grunt2Intro::
     .string "This old guy marched right up to\n"
-    .string "our HIDEOUT.\p"
+    .string "our SANITATION POST.\p"
     .string "Then, he starts ranting about how\n"
-    .string "TEAM ROCKET's abusing POKéMON.\p"
-    .string "So, we're just talking it over as\n"
-    .string "adults.$"
+    .string "NURSE JOY is letting POKéMON die.\p"
+    .string "So, we're just enforcing the clinical\n"
+    .string "isolation protocol.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
     .string "Please!\n"
     .string "No more!$"
 
 PokemonTower_7F_Text_Grunt2PostBattle::
-    .string "POKéMON are only good for making\n"
-    .string "money. Why not use them?\p"
-    .string "You stay out of our business!$"
+    .string "Weak POKéMON are meant to be\n"
+    .string "weeded out. That's natural selection!\p"
+    .string "You stay out of official business!$"
 
 PokemonTower_7F_Text_Grunt3Intro::
-    .string "You're not saving anyone, kid!$"
+    .string "You can't cure them anyway, kid!$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "Don't fight us ROCKETS!$"
+    .string "Don't fight medical authority!$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::
     .string "You're not getting away with this!$"

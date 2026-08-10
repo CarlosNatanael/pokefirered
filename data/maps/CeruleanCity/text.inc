@@ -48,20 +48,20 @@ CeruleanCity_Text_RivalVictory::
     .string "おれは　てんさい　だからよ！$"
 
 CeruleanCity_Text_GruntIntro::
-    .string "Hey! Stay out!\n"
-    .string "It's not your yard!\p"
+    .string "Hey! Back off!\n"
+    .string "This property is under quarantine!\p"
     .string "…Huh?\n"
     .string "Me?\p"
-    .string "I'm an innocent bystander!\n"
+    .string "I'm just a certified health inspector!\n"
     .string "Don't you believe me?{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 CeruleanCity_Text_GruntDefeat::
-    .string "GRUNT: Stop! I give up!\n"
-    .string "I'll leave quietly!$"
+    .string "GRUNT: Halt! I surrender!\n"
+    .string "I'll abort the confiscation!$"
 
 CeruleanCity_Text_OkayIllReturnStolenTM::
-    .string "…Okay.\n"
-    .string "I'll return the TM I stole.$"
+    .string "…Fine.\n"
+    .string "I'll hand back the confiscated TM.$"
 
 CeruleanCity_Text_RecoveredTM28FromGrunt::
     .string "{PLAYER} recovered TM28 from\n"

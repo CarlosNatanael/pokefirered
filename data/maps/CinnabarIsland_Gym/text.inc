@@ -1,18 +1,19 @@
 CinnabarIsland_Gym_Text_BlaineIntro::
     .string "Hah!\p"
-    .string "I am BLAINE, the red-hot LEADER\n"
-    .string "of CINNABAR GYM!\p"
-    .string "My fiery POKéMON are all rough\n"
-    .string "and ready with intense heat!\p"
-    .string "They incinerate all challengers!\p"
+    .string "I am BLAINE, the LEADER of\n"
+    .string "CINNABAR GYM!\p"
+    .string "I saw the medical system burn to\n"
+    .string "ashes under JOY's regime!\p"
+    .string "My fiery POKéMON unleash intense\n"
+    .string "heat that chars everything!\p"
     .string "Hah!\n"
-    .string "You better have BURN HEAL!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "You better have a BURN HEAL, because\n"
+    .string "no clinic will save you now!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CinnabarIsland_Gym_Text_BlaineDefeat::
-    .string "I have burned down to nothing!\n"
+    .string "My flames have been snuffed out!\n"
     .string "Not even ashes remain!\p"
     .string "You have earned the VOLCANOBADGE.$"
-
 CinnabarIsland_Gym_Text_FireBlastIsUltimateFireMove::
     .string "FIRE BLAST is the ultimate fire\n"
     .string "technique.\p"

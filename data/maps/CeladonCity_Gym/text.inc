@@ -1,31 +1,31 @@
 CeladonCity_Gym_Text_ErikaIntro::
     .string "Hello…\n"
     .string "Lovely weather, isn't it?\l"
-    .string "It's so pleasant…\p"
+    .string "The herbs are blooming well…\p"
     .string "…Oh, dear…\n"
     .string "I must have dozed off. Welcome.\p"
     .string "My name is ERIKA.\n"
     .string "I am the LEADER of CELADON GYM.\p"
-    .string "I am a student of the art of\n"
-    .string "flower arranging.\p"
-    .string "My POKéMON are solely of the\n"
-    .string "GRASS type.\p"
+    .string "While NURSE JOY locked the clinics,\n"
+    .string "we preserve the art of herbal healing.\p"
+    .string "My GRASS-type POKéMON provide us\n"
+    .string "with natural remedies to survive.\p"
     .string "…Oh, I'm sorry, I had no idea that\n"
-    .string "you wished to challenge me.\p"
-    .string "Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "you wished to test our flora.\p"
+    .string "Very well, but our roots run deep.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeladonCity_Gym_Text_ErikaDefeat::
     .string "Oh!\n"
     .string "I concede defeat.\l"
-    .string "You are remarkably strong.\p"
+    .string "Your resilience is remarkable.\p"
     .string "I must confer on you the\n"
     .string "RAINBOWBADGE.$"
 
 CeladonCity_Gym_Text_ErikaPostBattle::
-    .string "You are cataloging POKéMON?\n"
+    .string "You travel without clinical aid?\n"
     .string "I must say I'm impressed.\p"
-    .string "I would never collect POKéMON if\n"
-    .string "they were unattractive.$"
+    .string "May the natural remedies of our\n"
+    .string "plants sustain your journey.$"
 
 CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
     .string "The RAINBOWBADGE will make\n"

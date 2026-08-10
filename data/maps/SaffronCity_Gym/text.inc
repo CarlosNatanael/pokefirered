@@ -1,25 +1,25 @@
 SaffronCity_Gym_Text_SabrinaIntro::
-    .string "I had a vision of your arrival.\p"
-    .string "I have had psychic powers since\n"
-    .string "I was a child.\p"
-    .string "It started when a spoon I\n"
-    .string "carelessly tossed, bent.\p"
-    .string "I dislike battling, but if you wish,\n"
-    .string "I will show you my powers!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "I foresaw the collapse of our clinics.\n"
+    .string "I foresaw your arrival, unhealed.\p"
+    .string "My psychic powers allowed me to see\n"
+    .string "NURSE JOY's grand design long ago.\p"
+    .string "Most trainers collapse under mental\n"
+    .string "and physical exhaustion.\p"
+    .string "Yet you continue to fight destiny.\n"
+    .string "Allow me to test your mind's limit!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 SaffronCity_Gym_Text_SabrinaDefeat::
-    .string "This loss shocks me!\n"
-    .string "But, a loss is a loss.\p"
-    .string "I admit, I didn't work hard enough\n"
-    .string "to win.\p"
-    .string "Your victory has earned you the\n"
+    .string "Your victory defies my foresight!\n"
+    .string "A true statistical anomaly...\p"
+    .string "You pushed past absolute exhaustion.\p"
+    .string "Your resilience has earned you the\n"
     .string "MARSHBADGE.$"
 
 SaffronCity_Gym_Text_SabrinaPostBattle::
-    .string "Psychic power isn't something that\n"
-    .string "only a few people have.\p"
-    .string "Everyone has psychic power.\n"
-    .string "People just don't realize it.$"
+    .string "Psychic power stems from mental\n"
+    .string "fortitude over bodily pain.\p"
+    .string "Perhaps that same willpower is what\n"
+    .string "keeps your team alive without care.$"
 
 SaffronCity_Gym_Text_ExplainMarshBadgeTakeThis::
     .string "The MARSHBADGE makes POKéMON up\n"

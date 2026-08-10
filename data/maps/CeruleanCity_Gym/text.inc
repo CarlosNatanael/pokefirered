@@ -1,11 +1,13 @@
 CeruleanCity_Gym_Text_MistyIntro::
     .string "Hi, you're a new face!\p"
-    .string "Only those TRAINERS who have a\n"
-    .string "policy about POKéMON can turn pro.\p"
-    .string "What is your approach when you\n"
-    .string "catch and train POKéMON?\p"
-    .string "My policy is an all-out offensive\n"
-    .string "with WATER-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "Without POKéMON CENTERS, clean water\n"
+    .string "is our only source of life.\p"
+    .string "NURSE JOY tries to hoard our streams,\n"
+    .string "but pure WATER keeps us fighting!\p"
+    .string "My policy is fluid adaptability and\n"
+    .string "relentless hydration with WATER-types!\p"
+    .string "Let's see if your dry, unhealed team\n"
+    .string "can withstand my torrents!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
     .string "TM03 teaches WATER PULSE.\p"
@@ -14,12 +16,12 @@ CeruleanCity_Gym_Text_ExplainTM03::
 CeruleanCity_Gym_Text_ExplainCascadeBadge::
     .string "The CASCADEBADGE makes all\n"
     .string "POKéMON up to Lv. 30 obey.\p"
-    .string "That includes even outsiders you\n"
-    .string "got in trades.\p"
+    .string "Even desperate outsiders traded to\n"
+    .string "survive this medical crisis.\p"
     .string "There's more. You can now use CUT\n"
     .string "anytime, even out of battle.\p"
-    .string "You can CUT down small trees to\n"
-    .string "open new pathways.\p"
+    .string "Use it to clear barricades built by\n"
+    .string "NURSE JOY's enforcement agents.\p"
     .string "You can also have my favorite TM.$"
 
 CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
@@ -31,14 +33,14 @@ CeruleanCity_Gym_Text_BetterMakeRoomForThis::
 
 CeruleanCity_Gym_Text_MistyDefeat::
     .string "Wow!\n"
-    .string "You're too much!\p"
+    .string "Your spirit flows like fresh water!\p"
     .string "All right!\p"
-    .string "You can have the CASCADEBADGE to\n"
-    .string "show you beat me.$"
+    .string "You deserve the CASCADEBADGE to\n"
+    .string "prove you survived my tide.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
-    .string "What? You?\n"
-    .string "I'm more than good enough for you!\p"
+    .string "Halt! You look exhausted!\p"
+    .string "We guard this clean water supply!\n"
     .string "MISTY won't have to be bothered.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::

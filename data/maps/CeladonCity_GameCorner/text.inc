@@ -107,16 +107,20 @@ CeladonCity_GameCorner_Text_WatchReelsClosely::
     .string "closely.$"
 
 CeladonCity_GameCorner_Text_GruntIntro::
-    .string "I'm guarding this poster!\n"
-    .string "Go away, or else!$"
+    .string "This poster hides a restricted\n"
+    .string "medical enforcement zone!\p"
+    .string "Move along, before I confiscate\n"
+    .string "all your healing supplies!$"
 
 CeladonCity_GameCorner_Text_GruntDefeat::
-    .string "Dang!$"
+    .string "Dammit! You'll pay for this\n"
+    .string "sanitary violation!$"
 
 CeladonCity_GameCorner_Text_GruntPostBattle::
-    .string "The TEAM ROCKET HIDEOUT might\n"
-    .string "be discovered!\p"
-    .string "I better tell BOSS!$"
+    .string "The TEAM ROCKET medical supply\n"
+    .string "depot might be exposed!\p"
+    .string "I need to alert the BOARD\n"
+    .string "immediately!$"
 
 CeladonCity_GameCorner_Text_SwitchBehindPosterPushIt::
     .string "Hey!\p"

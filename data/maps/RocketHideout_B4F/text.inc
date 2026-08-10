@@ -23,29 +23,29 @@ RocketHideout_B4F_Text_GiovanniPostBattle::
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "I know you!\n"
-    .string "You ruined our plans at MT. MOON!$"
+    .string "You ruined our mineral raid at MT. MOON!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
     .string "Burned again!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
-    .string "Do you have something against TEAM\n"
-    .string "ROCKET?$"
+    .string "Do you have something against\n"
+    .string "clinical survival tests?$"
 
 RocketHideout_B4F_Text_Grunt3Intro::
     .string "How can you not see the beauty of\n"
-    .string "our evil?$"
+    .string "natural selection?$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
     .string "Ayaya!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
-    .string "BOSS!\n"
-    .string "I'm sorry I failed you!$"
+    .string "DIRECTOR!\n"
+    .string "I'm sorry I failed the protocol!$"
 
 RocketHideout_B4F_Text_Grunt1Intro::
-    .string "The elevator doesn't work?\n"
-    .string "Who has the LIFT KEY?$"
+    .string "The elevator is locked?\n"
+    .string "Who's holding the LIFT KEY?$"
 
 RocketHideout_B4F_Text_Grunt1Defeat::
     .string "No!$"

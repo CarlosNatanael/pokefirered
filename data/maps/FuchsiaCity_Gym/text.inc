@@ -1,28 +1,28 @@
 FuchsiaCity_Gym_Text_KogaIntro::
     .string "KOGA: Fwahahaha!\p"
-    .string "A mere child like you dares to\n"
-    .string "challenge me?\p"
-    .string "The very idea makes me shiver\n"
-    .string "with mirth!\p"
-    .string "Very well, I shall show you true\n"
-    .string "terror as a ninja master.\p"
-    .string "Poison brings steady doom.\n"
-    .string "Sleep renders foes helpless.\p"
+    .string "A mere child with no medical support\n"
+    .string "dares to challenge me?\p"
+    .string "NURSE JOY was right about one thing:\n"
+    .string "only the resilient survive!\p"
+    .string "As a ninja master, I exploit every\n"
+    .string "weakness in your unhealed team.\p"
+    .string "Poison brings steady doom when no\n"
+    .string "clinics exist to cure it!\p"
     .string "Despair to the creeping horror of\n"
-    .string "POISON-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "POISON-type attrition!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 FuchsiaCity_Gym_Text_KogaDefeat::
     .string "Humph!\n"
-    .string "You have proven your worth!\p"
+    .string "You survived my biological test!\p"
     .string "Here!\n"
     .string "Take the SOULBADGE!$"
 
 FuchsiaCity_Gym_Text_KogaPostBattle::
     .string "When afflicted by TOXIC, a POKéMON\n"
-    .string "suffers more and more.\p"
-    .string "It suffers worsening damage as the\n"
-    .string "battle wears on!\p"
-    .string "It will surely terrorize foes!$"
+    .string "suffers more and more each turn.\p"
+    .string "Without POKéMON CENTERS, poison is\n"
+    .string "the ultimate weapon of attrition!\p"
+    .string "Use it wisely in this hostile world.$"
 
 FuchsiaCity_Gym_Text_KogaExplainSoulBadge::
     .string "Now that you have the SOULBADGE,\n"

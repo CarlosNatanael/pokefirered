@@ -1,6 +1,6 @@
 RocketHideout_B3F_Text_Grunt1Intro::
-    .string "Stop meddling in TEAM ROCKET's\n"
-    .string "affairs or else!$"
+    .string "Stop meddling in our quarantine\n"
+    .string "operations or else!$"
 
 RocketHideout_B3F_Text_Grunt1Defeat::
     .string "Oof!\n"
@@ -8,19 +8,19 @@ RocketHideout_B3F_Text_Grunt1Defeat::
 
 RocketHideout_B3F_Text_Grunt1PostBattle::
     .string "SILPH SCOPE?\n"
-    .string "Oh, that machine the BOSS stole.\p"
-    .string "It's here somewhere.$"
+    .string "Oh, the scanner our DIRECTOR seized.\p"
+    .string "It's stored here somewhere.$"
 
 RocketHideout_B3F_Text_Grunt2Intro::
-    .string "We got word from upstairs that you\n"
-    .string "were coming!$"
+    .string "We got word from dispatch that you\n"
+    .string "were breaching security!$"
 
 RocketHideout_B3F_Text_Grunt2Defeat::
     .string "What?\n"
     .string "I lost? No!$"
 
 RocketHideout_B3F_Text_Grunt2PostBattle::
-    .string "Go ahead and go!\p"
-    .string "But you can't run the elevator\n"
+    .string "Go ahead and try!\p"
+    .string "You can't access the supply lift\n"
     .string "without the LIFT KEY.$"
 

@@ -1,18 +1,20 @@
 VermilionCity_Gym_Text_LtSurgeIntro::
     .string "Hey, kid! What do you think you're\n"
-    .string "doing here?\p"
-    .string "You won't live long in combat!\n"
-    .string "Not with your puny power!\p"
+    .string "doing in an active warzone?\p"
+    .string "You won't last long without medical\n"
+    .string "support! Not with your depleted team!\p"
     .string "I tell you, kid, electric POKéMON\n"
-    .string "saved me during the war!\p"
-    .string "They zapped my enemies into\n"
-    .string "paralysis!\p"
-    .string "The same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "kept my squad alive in the war!\p"
+    .string "They paralyzed the enemy so we took\n"
+    .string "zero casualties!\p"
+    .string "I'll shock your unhealed team into\n"
+    .string "submission right now!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "A little word of advice, kid!\p"
-    .string "Electricity is sure powerful!\p"
-    .string "But, it's useless against GROUND-\n"
+    .string "A little tactical advice, kid!\p"
+    .string "Electric shock tactics keep you\n"
+    .string "alive when clinics are closed!\p"
+    .string "But they're useless against GROUND-\n"
     .string "type POKéMON!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
@@ -36,7 +38,8 @@ VermilionCity_Gym_Text_MakeRoomInYourBag::
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
     .string "Now that's a shocker!\p"
-    .string "You're the real deal, kid!\p"
+    .string "You survived a full combat scenario\n"
+    .string "without field medics, kid!\p"
     .string "Fine, then, take the THUNDERBADGE!$"
 
 VermilionCity_Gym_Text_TuckerIntro::

@@ -24,11 +24,11 @@ FourIsland_IcefallCave_Back_Text_LoreleiPlayerHelpMeKickPoachersOut::
 
 FourIsland_IcefallCave_Back_Text_GruntIntro::
     .string "W-what?!\p"
-    .string "Who says we can't do what we want\n"
-    .string "with the POKéMON we catch?$"
+    .string "Who says we can't test extreme\n"
+    .string "HP deprivation on wild POKéMON?$"
 
 FourIsland_IcefallCave_Back_Text_GruntDefeat::
-    .string "We didn't plan on this!$"
+    .string "This wasn't in the clinical plan!$"
 
 FourIsland_IcefallCave_Back_Text_LoreleiWhereHaveYouTakenMons::
     .string "LORELEI: Humph.\n"

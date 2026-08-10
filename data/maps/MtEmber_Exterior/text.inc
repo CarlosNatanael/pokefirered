@@ -73,26 +73,26 @@ MtEmber_Exterior_Text_SnoopsBeenListeningIn::
     .string "This snoop's been listening in!$"
 
 MtEmber_Exterior_Text_Grunt1Intro::
-    .string "You've been eavesdropping on us,\n"
-    .string "haven't you?$"
+    .string "You've been listening to our\n"
+    .string "synthesis operation, haven't you?$"
 
 MtEmber_Exterior_Text_Grunt1Defeat::
     .string "Huh, what?$"
 
 MtEmber_Exterior_Text_Grunt1PostBattle::
-    .string "Why'd you have to win?$"
+    .string "Why'd you have to ruin the test?$"
 
 MtEmber_Exterior_Text_Grunt2Intro::
-    .string "Trying to horn in on our treasure?\n"
-    .string "Don't bet on it!$"
+    .string "Trying to seize our raw medical\n"
+    .string "minerals? Don't bet on it!$"
 
 MtEmber_Exterior_Text_Grunt2Defeat::
     .string "Wait!\n"
     .string "But how?$"
 
 MtEmber_Exterior_Text_Grunt2PostBattle::
-    .string "Develop amnesia conveniently and\n"
-    .string "forget everything you heard!$"
+    .string "Forget about our chemical extraction\n"
+    .string "and act like you saw nothing!$"
 
 MtEmber_Exterior_Text_WellRegroupDontStepInsideThere::
     .string "What a setback…\n"
