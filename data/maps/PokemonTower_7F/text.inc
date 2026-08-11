@@ -26,13 +26,17 @@ PokemonTower_7F_Text_Grunt2PostBattle::
     .string "You stay out of official business!$"
 
 PokemonTower_7F_Text_Grunt3Intro::
-    .string "You can't cure them anyway, kid!$"
+    .string "I am extracting spectral energy\n"
+    .string "to synthesize PP medicine!\p"
+    .string "You think you can survive without\n"
+    .string "NURSE JOY? I'll drain you dry!$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "Don't fight medical authority!$"
+    .string "My... my clinical trial failed!$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::
-    .string "You're not getting away with this!$"
+    .string "You ruined the extraction!\n"
+    .string "Take these and leave me alone!$"
 
 PokemonTower_7F_Text_MrFujiThankYouFollowMe::
     .string "MR. FUJI: Heh?\n"

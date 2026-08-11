@@ -4517,26 +4517,27 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt20[] = {
     },
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TeamRocketGrunt21[] = {
+static const struct TrainerMonItemCustomMoves sParty_TeamRocketGrunt21[] = {
     {
-        .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_ZUBAT,
+        .iv = 100,
+        .lvl = 28,
+        .species = SPECIES_HAUNTER,
+        .heldItem = ITEM_NONE,
+        .moves = {MOVE_SPITE, MOVE_CONFUSE_RAY, MOVE_MEAN_LOOK, MOVE_NIGHT_SHADE},
     },
     {
-        .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_RATTATA,
+        .iv = 100,
+        .lvl = 28,
+        .species = SPECIES_WEEZING,
+        .heldItem = ITEM_SITRUS_BERRY,
+        .moves = {MOVE_PROTECT, MOVE_SMOKESCREEN, MOVE_SLUDGE, MOVE_TOXIC},
     },
     {
-        .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_RATICATE,
-    },
-    {
-        .iv = 0,
-        .lvl = 23,
-        .species = SPECIES_ZUBAT,
+        .iv = 150,
+        .lvl = 29,
+        .species = SPECIES_MUK,
+        .heldItem = ITEM_CHESTO_BERRY,
+        .moves = {MOVE_MINIMIZE, MOVE_DISABLE, MOVE_REST, MOVE_SLUDGE_BOMB},
     },
 };
 
@@ -5622,31 +5623,31 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
     {
-        .iv = 250,
+        .iv = 0,
         .lvl = 14,
         .species = SPECIES_ONIX,
         .moves = {MOVE_TACKLE, MOVE_BIND, MOVE_ROCK_TOMB, MOVE_NONE},
     },
     {
-        .iv = 250,
+        .iv = 0,
         .lvl = 15,
         .species = SPECIES_GRAVELER,
-        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_THROW, MOVE_NONE},
+        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_TOMB, MOVE_NONE},
     },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderMisty[] = {
     {
-        .iv = 250,
+        .iv = 0,
         .lvl = 22,
         .species = SPECIES_STARMIE,
         .moves = {MOVE_SWIFT, MOVE_RECOVER, MOVE_RAPID_SPIN, MOVE_WATER_PULSE},
     },
     {
-        .iv = 250,
+        .iv = 0,
         .lvl = 23,
         .species = SPECIES_GOLDUCK,
-        .moves = {MOVE_TAIL_WHIP, MOVE_CONFUSION, MOVE_DISABLE, MOVE_WATER_PULSE},
+        .moves = {MOVE_TAIL_WHIP, MOVE_DISABLE, MOVE_WATER_PULSE, MOVE_NONE},
     },
 };
 
@@ -5666,7 +5667,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderLtSurge[] = {
     {
         .iv = 0,
         .lvl = 26,
-        .species = SPECIES_VOLTORB,
+        .species = SPECIES_ELECTABUZZ,
         .moves = {MOVE_THUNDER_PUNCH, MOVE_QUICK_ATTACK, MOVE_LEER, MOVE_SHOCK_WAVE},
     },
 };

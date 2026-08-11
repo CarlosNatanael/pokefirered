@@ -170,6 +170,7 @@ PokemonTower_7F_EventScript_Grunt3::
 
 PokemonTower_7F_EventScript_DefeatedGrunt3::
 	msgbox PokemonTower_7F_Text_Grunt3PostBattle
+	giveitem ITEM_ETHER, 6
 	closemessage
 	getplayerxy VAR_0x8004, VAR_0x8005
 	goto_if_eq VAR_0x8004, 10, PokemonTower_7F_EventScript_Grunt3ExitRight
