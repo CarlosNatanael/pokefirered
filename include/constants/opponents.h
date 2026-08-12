@@ -752,12 +752,15 @@
 #define TRAINER_RA_MALEVOLENT                    746
 #define TRAINER_RA_CNAT                          747
 #define TRAINER_RA_GRENINJAMAN                   748
+#define TRAINER_FALLEN_GIOVANNI                  749
+#define TRAINER_ROCKET_SCIENTIST                 750
+
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is 
 //       only space for 25 additional trainers before trainer flag space overflows.
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define NUM_TRAINERS                             748
+#define NUM_TRAINERS                             750
 #define MAX_TRAINERS_COUNT                       768
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

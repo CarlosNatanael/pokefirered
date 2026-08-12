@@ -17,3 +17,4 @@ SevenIsland_EventScript_OldWoman::
 SevenIsland_EventScript_Scientist::
 	msgbox SevenIsland_Text_IslandVirtuallyUntouched, MSGBOX_NPC
 	end
+

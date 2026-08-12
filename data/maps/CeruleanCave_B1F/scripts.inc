@@ -56,3 +56,9 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	setvar VAR_0x8004, SPECIES_MEWTWO
 	goto EventScript_MonFlewAway
 	end
+
+CeruleanCave_B1F_EventScript_Geneticist::
+	trainerbattle_double TRAINER_ROCKET_SCIENTIST, CeruleanCave_B1F_Text_GeneticistIntro, CeruleanCave_B1F_Text_GeneticistDefeat, CeruleanCave_B1F_Text_NotEnoughMons
+	msgbox CeruleanCave_B1F_Text_GeneticistPostBattle, MSGBOX_AUTOCLOSE
+	end
+

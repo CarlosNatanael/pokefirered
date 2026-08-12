@@ -11137,3 +11137,57 @@ static const struct TrainerMonItemCustomMoves sParty_RACnat[] = {
     }
 };
 
+static const struct TrainerMonItemCustomMoves sParty_FallenGiovanni[] = {
+    {
+        .iv = 250,
+        .lvl = 66,
+        .species = SPECIES_DUGTRIO,
+        .heldItem = ITEM_SOFT_SAND,
+        .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_SLUDGE_BOMB, MOVE_AERIAL_ACE},
+    },
+    {
+        .iv = 250,
+        .lvl = 67,
+        .species = SPECIES_PERSIAN,
+        .heldItem = ITEM_SILK_SCARF,
+        .moves = {MOVE_RETURN, MOVE_SHADOW_BALL, MOVE_IRON_TAIL, MOVE_FAKE_OUT},
+    },
+    {
+        .iv = 250,
+        .lvl = 68,
+        .species = SPECIES_NIDOQUEEN,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_EARTHQUAKE, MOVE_SUPERPOWER, MOVE_ICE_BEAM, MOVE_ROAR},
+    },
+    {
+        .iv = 250,
+        .lvl = 68,
+        .species = SPECIES_NIDOKING,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_SHADOW_BALL, MOVE_ROCK_TOMB},
+    },
+    {
+        .iv = 250,
+        .lvl = 70,
+        .species = SPECIES_RHYDON,
+        .heldItem = ITEM_QUICK_CLAW,
+        .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_MEGAHORN, MOVE_SWORDS_DANCE},
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_EliteGeneticist[] = {
+    {
+        .iv = 250,
+        .lvl = 70,
+        .species = SPECIES_BLISSEY,
+        .heldItem = ITEM_LEFTOVERS,
+        .moves = {MOVE_LIGHT_SCREEN, MOVE_HELPING_HAND, MOVE_SOFT_BOILED, MOVE_TOXIC},
+    },
+    {
+        .iv = 250,
+        .lvl = 70,
+        .species = SPECIES_ALAKAZAM,
+        .heldItem = ITEM_LUM_BERRY,
+        .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_CALM_MIND, MOVE_RECOVER},
+    }
+};
