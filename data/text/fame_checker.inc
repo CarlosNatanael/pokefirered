@@ -788,10 +788,10 @@ gFameCheckerPersonQuote_MrFuji:: @ 0x81B0B0E
 	.string "happiness of all POKéMON?$"
 
 gFameCheckerPersonName_Giovanni:: @ 0x81B0BA6
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}GIOVANNI$"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}NURSE JOY$"
 
 gFameCheckerPersonQuote_Giovanni:: @ 0x81B0BB5
-	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: GIOVANNI\n"
+	.string "{COLOR BLUE}{SHADOW LIGHT_BLUE}From: NURSE JOY\n"
 	.string "To: {PLAYER}\p"
 	.string "{FONT_MALE}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}There is nothing that I wish to say\n"
 	.string "to you.\p"
