@@ -13,7 +13,6 @@ CeruleanCity_Gym_EventScript_MistyDefeated::
 	famechecker FAMECHECKER_MISTY, 1
 	setflag FLAG_DEFEATED_MISTY
 	setflag FLAG_BADGE02_GET
-	setrespawn HEAL_LOCATION_CERULEAN_CITY
 	set_gym_trainers 2
 	goto CeruleanCity_Gym_EventScript_GiveTM03
 	end
