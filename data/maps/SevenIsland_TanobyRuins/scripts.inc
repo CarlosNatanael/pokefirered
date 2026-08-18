@@ -26,3 +26,4 @@ EventScript_RAS4nsan_JaVenceu::
     msgbox Text_RAS4nsan_Fim
     release
     end
+

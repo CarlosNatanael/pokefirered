@@ -41,3 +41,11 @@ IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway::
     .string "a cousin who's a GYM LEADER\l"
     .string "somewhere far away.$"
 
+IndigoPlateau_PokemonCenter_1F_Text_NoHeal::
+	.string "Welcome to the INDIGO PLATEAU.\p"
+	.string "As part of the new clinical protocol,\n"
+	.string "healing services are suspended.\p"
+	.string "To challenge the ELITE FOUR, you\n"
+	.string "must survive on your own merits.\l"
+	.string "Good luck.$"
+

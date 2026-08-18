@@ -4,7 +4,7 @@ IndigoPlateau_PokemonCenter_1F_MapScripts::
 	.byte 0
 
 IndigoPlateau_PokemonCenter_1F_OnTransition::
-	setrespawn HEAL_LOCATION_INDIGO_PLATEAU
+	setrespawn HEAL_LOCATION_PALLET_TOWN
 	specialvar VAR_RESULT, IsNationalPokedexEnabled
 	call_if_eq VAR_RESULT, TRUE, IndigoPlateau_PokemonCenter_1F_EventScript_CheckBlockDoor
 	end
@@ -63,8 +63,5 @@ IndigoPlateau_PokemonCenter_1F_Items::
 	end
 
 IndigoPlateau_PokemonCenter_1F_EventScript_Nurse::
-	lock
-	faceplayer
-	call EventScript_PkmnCenterNurse
-	release
+	msgbox IndigoPlateau_PokemonCenter_1F_Text_NoHeal, MSGBOX_NPC
 	end

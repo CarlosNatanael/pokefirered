@@ -169,3 +169,4 @@ ViridianCity_Gym_Text_GymStatuePlayerWon::
     .string "LEADER: HEAD NURSE JOY\p"
     .string "WINNING TRAINERS:\n"
     .string "{RIVAL}, {PLAYER}$"
+

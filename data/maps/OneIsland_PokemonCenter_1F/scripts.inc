@@ -25,7 +25,7 @@ OneIsland_PokemonCenter_1F_EventScript_SetNetworkMachineOn::
 	return
 
 OneIsland_PokemonCenter_1F_OnTransition::
-	setrespawn HEAL_LOCATION_ONE_ISLAND
+	setrespawn HEAL_LOCATION_PALLET_TOWN
 	call_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 6, OneIsland_PokemonCenter_1F_EventScript_SetCelioQuestDone
 	call_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 0, OneIsland_PokemonCenter_1F_EventScript_SetBillCelioFirstMeetingPos
 	call_if_eq VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 2, OneIsland_PokemonCenter_1F_EventScript_SetBillCelioReadyToLeavePos
@@ -175,10 +175,7 @@ OneIsland_PokemonCenter_1F_Movement_StepAsideLeft::
 	step_end
 
 OneIsland_PokemonCenter_1F_EventScript_Nurse::
-	lock
-	faceplayer
-	call EventScript_PkmnCenterNurse
-	release
+	msgbox OneIsland_PokemonCenter_1F_Text_Lockdown, MSGBOX_NPC
 	end
 
 OneIsland_PokemonCenter_1F_EventScript_Bill::
