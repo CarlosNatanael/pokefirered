@@ -1357,7 +1357,7 @@ gFameCheckerFlavorTextOriginObjectName_MrFuji5::
 	.string "POKéMON JOURNAL$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni0::
-	.string "GIOVANNI$"
+	.string "NURSE JOY$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni1::
 	.string "SCIENTIST$"
@@ -1366,7 +1366,7 @@ gFameCheckerFlavorTextOriginObjectName_Giovanni2::
 	.string "SCIENTIST$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni3::
-	.string "GIOVANNI$"
+	.string "NURSE JOY$"
 
 gFameCheckerFlavorTextOriginObjectName_Giovanni4::
 	.string "MAN$"

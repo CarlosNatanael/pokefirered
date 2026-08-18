@@ -117,7 +117,7 @@
     {
       "local_id": "LOCALID_LEAGUE_NURSE",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_NURSE",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 13,
       "y": 10,
       "elevation": 3,
