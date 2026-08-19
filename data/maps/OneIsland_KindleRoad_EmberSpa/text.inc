@@ -1,11 +1,10 @@
 OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore::
-    .string "Hm!\n"
-    .string "Haaaaaaaaaaah!\p"
-    .string "Aaaah! This is heavenly!\n"
-    .string "The water warms me to my core!\p"
-    .string "You should jump in, too.\p"
-    .string "Go to the middle, relax, and get\n"
-    .string "good and warm!$"
+    .string "Brrr!\n"
+    .string "H-h-h-haaaaaaaaaaaah!\p"
+    .string "This used to be heavenly...\n"
+    .string "But the Medical Task Force drained\l"
+    .string "all the therapeutic minerals.\p"
+    .string "Now it's just a freezing puddle!$"
 
 OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
     .string "My favorite part of bathing comes\n"
@@ -14,10 +13,10 @@ OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
     .string "warm me from the inside, too!$"
 
 OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed::
-    .string "The water is perfectly warm.\n"
-    .string "It feels exquisite…\p"
-    .string "{PLAYER} and the POKéMON were\n"
-    .string "fully refreshed!$"
+    .string "The water is freezing cold...\n"
+    .string "The healing minerals were drained\l"
+    .string "by the Medical Task Force.\p"
+    .string "No healing for anomalies.$"
 
 OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic::
     .string "Soaking in a hot spring pool is\n"
